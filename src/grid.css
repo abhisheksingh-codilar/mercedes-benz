@@ -1,0 +1,100 @@
+.grid-container{
+    height: 90rem;
+    display: grid;
+    background-color: #000;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 0.1rem;
+    column-gap: .1rem;
+    margin-bottom: 2rem;
+}
+
+.item1{
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+
+}
+.item10{
+    grid-row-start:4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14{
+    position: relative;
+}
+.item1>img,.item2>img,.item3>img,.item4>img,.item5>img,.item6>img,.item7>img,.item8>img,.item9>img,.item10>img,.item11>img,.item12>img,.item13>img,.item14>img{
+    height: 100%; 
+    width: 100%; 
+}
+.item1-content-container,.item2-content-container,.item3-content-container,.item4-content-container,.item5-content-container,.item6-content-container,.item7-content-container,.item8-content-container,.item9-content-container,.item10-content-container,.item11-content-container,.item12-content-container,.item13-content-container,.item14-content-container{
+    background: rgba(0,0,0,.35);
+    bottom: 0;
+    height: 3rem;
+    transition: height 0.5s;
+    left: 0;
+    overflow: hidden;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    color: #fff;
+    font-size: 1.1rem;
+    
+}
+
+.item1-content,.item2-content,.item3-content,.item4-content,.item5-content,.item6-content,.item7-content,.item8-content,.item9-content,.item10-content,.item11-content,.item12-content,.item13-content,.item14-content{
+  opacity: 0;
+  
+}
+
+/* Hover item1 */
+.item1:hover .item1-content-container,.item2:hover .item2-content-container,.item3:hover .item3-content-container,.item4:hover .item4-content-container,.item5:hover .item5-content-container,.item6:hover .item6-content-container,.item7:hover .item7-content-container,.item8:hover .item8-content-container,.item9:hover .item9-content-container,.item10:hover .item10-content-container,.item11:hover .item11-content-container,.item12:hover .item12-content-container,.item13:hover .item13-content-container,.item14:hover .item14-content-container{
+    height: 10rem; 
+
+}
+.item1:hover .item1-content,.item2:hover .item2-content,.item3:hover .item3-content,.item4:hover .item4-content,.item5:hover .item5-content,.item6:hover .item6-content,.item7:hover .item7-content,.item8:hover .item8-content,.item9:hover .item9-content,.item10:hover .item10-content,.item11:hover .item11-content,.item12:hover .item12-content,.item13:hover .item13-content,.item14:hover .item14-content{
+    opacity: 1;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+   
+}
+
+
+
+.show-more-container{
+    height: 5rem;
+    background-color: #000;
+
+}
+.show-more-inner{
+    display: flex;
+    justify-content: center;
+}
+.show-btn{
+    border: 1px solid #202020;
+    height: 2.2rem;
+    width: 9rem;
+    padding: 0.375rem 1.25rem;
+    color: #999;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgb(48, 48, 48);
+    /* background-color: #fff; */
+}
+.show-btn>.brandhub-icon{
+    padding-right: 0.25rem;
+    color: #999;
+}
+
+.show-btn:hover,.show-btn:hover .brandhub-icon{
+    color: #fff;
+}
+.space{
+    height: 1rem;
+    background-color: #000;
+
+}

@@ -1,0 +1,66 @@
+
+
+
+.brandhub-section{
+    background-color: #000;
+    height: 27.5rem;
+    padding: 0 2rem;
+}
+
+.brandhub-icons{
+    height: 2.7rem;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+}
+.brandhub-icons>div{
+    margin-right: 1.5rem;
+}
+.brandhub-para>p{
+    color:#fff;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.sitemap-base-outer{
+    height: 25.75rem;
+    background-color: #000;
+    color: #fff;
+}
+.sitemap-base-inner{
+    margin: 0 2rem;
+    height: 25.75rem;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.heading{
+    height: 2.75rem;
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+    
+}
+.sitemap-hr{
+margin: 1.8rem 0;
+ background-color: rgb(153, 153, 153);
+ height: 1px; 
+opacity: 0.2;
+
+}
+.anchor{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    line-height: 1.4rem;
+    font-size: 0.95rem;
+
+}
+.list{
+    list-style: none;
+}
+.sitemap-group{
+    flex: 0 0 25%;
+    max-width: 25%;
+    
+}
+.anchor:hover{
+    color:rgb(0,173,239) ;
+}
